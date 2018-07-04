@@ -1,0 +1,62 @@
+<view class='container'>
+  <scroll-view scroll-x='true' class='scrollview_x'>
+    <image class='viewpage_image' src='../../img/banner.png'></image>
+    <image class='viewpage_image' src='../../img/banner.png'></image>
+    <image class='viewpage_image' src='../../img/banner.png'></image>
+  </scroll-view>
+  <view scroll-y='true' class='scrollvie_y'>
+    <view class='themeitem'>
+      <view class='name' style='borde:1px red solid'>
+        <image class='item_cover' src='../../img/banner.png'></image>
+        <label class='name'>作者：{{motto}}</label>
+        <label class='title'>名称：暮光之城</label>
+      </view>
+    </view>
+    <view class='themeitem'>
+    </view>
+    <view class='themeitem'>
+    </view>
+    <view class='themeitem'>
+    </view>
+    <view class='themeitem'>
+    </view>
+    <view class='themeitem'>
+    </view>
+    <view class='themeitem'>
+    </view>
+    <view class='themeitem'>
+    </view>
+    <view class='themeitem'>
+    </view>
+    <view class='themeitem'>
+    </view>
+    <view class='themeitem'>
+    </view>
+    <view class='themeitem'>
+    </view>
+    <view class='themeitem'>
+    </view>
+    <view class='themeitem'>
+    </view>
+    <view class='themeitem'>
+    </view>
+    <view class='themeitem'>
+    </view>
+    <view class='themeitem'>
+    </view>
+    <view class='themeitem'>
+    </view>
+  </view>
+  <!-- <view class='tabview'>
+    <view class='tab_item'>
+      <text>首页</text>
+    </view>
+    <view class='tab_item'>
+      <text>精选</text>
+    </view>
+    <view class='tab_item'>
+      <text>我的</text>
+    </view>
+  </view> -->
+
+</view>
