@@ -1,123 +1,21 @@
-.container {
+/**index.wxss**/
+.userinfo {
   display: flex;
   flex-direction: column;
-}
-
-.headView1 {
-  width: 100rpx;
-  height: 100rpx;
-  background-color: #f00;
-}
-
-.tabview {
-  height: 100rpx;
-  width: 750rpx;
-  background-color: #fff;
-  position: fixed;
-  bottom: 0;
-  display: flex;
-  flex-direction: row;
   align-items: center;
-  justify-content: space-between;
 }
 
-.tab_item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex: 1;
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
 }
 
-.scrollview_x {
-  white-space: nowrap;
-  height: 350rpx;
+.userinfo-nickname {
+  color: #aaa;
 }
 
-/* .viewpage_page1 {
-  background: #f00;
-  height: 300rpx;
-  width: 750rpx;
-  border-radius: 10rpx;
-}
-
-.viewpage_page2 {
-  background: #f00;
-  height: 300rpx;
-  width: 750rpx;
-  border-radius: 10rpx;
-}
-
-.viewpage_page3 {
-  background: #f00;
-  height: 300rpx;
-  width: 750rpx;
-  border-radius: 10rpx;
-} */
-
-.scrollvie_y {
-  margin-top: 30rpx;
-  width: 750rpx;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.viewpage_page11 {
-  background-color: #f00;
-  width: 750rpx;
-  height: 300rpx;
-  border-radius: 10rpx;
-}
-
-.viewpage_page22 {
-  height: 300rpx;
-  background-color: #0f0;
-  width: 750rpx;
-  border-radius: 10rpx;
-}
-
-.viewpage_page33 {
-  height: 300rpx;
-  background-color: #00f;
-  width: 750rpx;
-  border-radius: 10rpx;
-}
-
-.viewpage_image {
-  width: 690rpx;
-  height: 270rpx;
-  margin: 30rpx 30rpx 30rpx 30rpx;
-  background-color: #f00;
-  border-radius: 20rpx;
-  box-shadow: 10rpx 10rpx 10rpx 10rpx #66666630;
-}
-
-.themeitem {
-  margin-top: 30rpx;
-  padding: 5rpx 5rpx 5rpx 5rpx;
-  width: 200rpx;
-  height: 450rpx;
-  margin: 10rpx 10rpx 10rpx 10rpx;
-  display: inline-block;
-}
-
-.item_cover {
-  width: 200rpx;
-  height: 350rpx;
-  border-radius: 15rpx;
-  box-shadow: 5rpx 5rpx 5rpx 5rpx #66666620;
-}
-
-.name {
-  width: 200rpx;
-  height: 250rpx;
-}
-
-.name {
-  font-size: 25rpx;
-}
-
-.title {
-  font-size: 25rpx;
+.usermotto {
+  margin-top: 200px;
 }

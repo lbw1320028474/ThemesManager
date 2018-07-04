@@ -1,0 +1,3 @@
+<view class="splashrootview">
+  <image class="splashImage" src="../../sources/images/spash.jpg"></image>
+</view>

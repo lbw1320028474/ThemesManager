@@ -1,0 +1,15 @@
+<view class='container'>
+  <view scroll-y='true' class='scrollvie_y'>
+    <view wx:for="{{themesData}}" class='themeitem'>
+      <view class='name' style='borde:1px red solid'>
+        <image class='item_cover' src="{{item.cover}}"></image>
+        <text class='name'>作者：{{item.author}}</text>
+        <text wx:if="{{item.isFree==false}}" class='title'>¥ {{item.charge}}</text>
+        <text wx:else class='title'>免费</text>
+      </view>
+    </view>
+    <view class='themeitem'>
+    </view>
+
+  </view>
+</view>

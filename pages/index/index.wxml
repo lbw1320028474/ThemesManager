@@ -1,35 +1,13 @@
-<view class='container'>
-  <scroll-view scroll-x='true' class='scrollview_x'>
-    <image class='viewpage_image' src='../../img/banner.png'></image>
-    <image class='viewpage_image' src='../../img/banner.png'></image>
-    <image class='viewpage_image' src='../../img/banner.png'></image>
-  </scroll-view>
-  <view scroll-y='true' class='scrollvie_y'>
-    <view wx:for="{{themesData}}" class='themeitem'>
-      <!-- 
-      <view  class='itemcontainer'>
-       
-      </view> -->
-      <view class='name' style='borde:1px red solid'>
-        <image class='item_cover' src="{{item.cover}}"></image>
-        <label class='name'>作者：{{item.author}}</label>
-        <label class='title'>名称：{{item.name}}</label>
-      </view>
-    </view>
-    <view class='themeitem'>
-    </view>
-
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
   </view>
-  <view class='tabview'>
-    <view class='tab_item'>
-      <text>主题</text>
-    </view>
-    <view class='tab_item'>
-      <text>壁纸</text>
-    </view>
-    <view class='tab_item'>
-      <text>我的</text>
-    </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
   </view>
-
 </view>
