@@ -12,7 +12,7 @@
 .tabview {
   height: 100rpx;
   width: 750rpx;
-  background-color: #f0f;
+  background-color: #fff;
   position: fixed;
   bottom: 0;
   display: flex;
@@ -30,7 +30,7 @@
 
 .scrollview_x {
   white-space: nowrap;
-  height: 300rpx;
+  height: 350rpx;
 }
 
 /* .viewpage_page1 {
@@ -55,6 +55,7 @@
 } */
 
 .scrollvie_y {
+  margin-top: 30rpx;
   width: 750rpx;
   display: flex;
   flex-direction: row;
@@ -86,26 +87,26 @@
 .viewpage_image {
   width: 690rpx;
   height: 270rpx;
-  margin: 0rpx 30rpx 30rpx 30rpx;
+  margin: 30rpx 30rpx 30rpx 30rpx;
   background-color: #f00;
   border-radius: 20rpx;
   box-shadow: 10rpx 10rpx 10rpx 10rpx #66666630;
 }
 
 .themeitem {
-  margin-top: 0;
+  margin-top: 30rpx;
   padding: 5rpx 5rpx 5rpx 5rpx;
   width: 200rpx;
-  height: 350rpx;
+  height: 450rpx;
   margin: 10rpx 10rpx 10rpx 10rpx;
   display: inline-block;
-  border-radius: 20rpx;
-  box-shadow: 5rpx 5rpx 5rpx 5rpx #66666620;
 }
 
 .item_cover {
   width: 200rpx;
-  height: 250rpx;
+  height: 350rpx;
+  border-radius: 15rpx;
+  box-shadow: 5rpx 5rpx 5rpx 5rpx #66666620;
 }
 
 .name {
@@ -114,9 +115,9 @@
 }
 
 .name {
-  font-size: 30rpx;
+  font-size: 25rpx;
 }
 
 .title {
-  display: block;
+  font-size: 25rpx;
 }
