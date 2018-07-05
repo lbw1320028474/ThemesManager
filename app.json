@@ -1,15 +1,15 @@
 {
   "pages": [
+    "pages/wallpaper/wallpaper",
     "pages/themes/themes",
     "pages/splash/splash",
-    "pages/wallpaper/wallpaper",
     "pages/mydownload/mydownload",
     "pages/index/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "主题",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {

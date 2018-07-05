@@ -3,7 +3,7 @@
     <image wx:for="{{bannerDatas}}" class='viewpage_image' src='{{item.bannerImg}}'></image>
   </scroll-view>
   <view scroll-y='true' class='scrollvie_y'>
-    <view wx:for="{{themesData}}" class='themeitem'>
+    <view wx:for="{{themesData}}" bindtap="themeItemTouch" class='themeitem'>
       <!-- 
       <view  class='itemcontainer'>
        

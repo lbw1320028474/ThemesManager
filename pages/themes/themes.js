@@ -102,5 +102,9 @@ Page({
   },
   getUserInfo: function(e) {
 
+  },
+
+  themeItemTouch: function(e) {
+    console.log("点击了");
   }
 })
