@@ -1,0 +1,9 @@
+<view class='container'>
+
+  <scroll-view scroll-x='true' class='scrollview_x'>
+    <image class='viewpage_image' src='{{themeInfoData.paper}}'></image>
+  </scroll-view>
+  <view class='bottomcontainer'>
+    <view class='downwallper'>下载壁纸</view>
+  </view>
+</view>

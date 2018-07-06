@@ -1,0 +1,69 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 90rpx;
+}
+
+.scrollview_x {
+  white-space: nowrap;
+}
+
+.viewpage_image {
+  width: 400rpx;
+  height: 750rpx;
+  margin: 30rpx 30rpx 30rpx 30rpx;
+  border-radius: 20rpx;
+  box-shadow: 10rpx 10rpx 10rpx 10rpx #66666630;
+}
+
+.themename {
+  font-size: 28rpx;
+}
+
+.themeauthor {
+  font-size: 28rpx;
+  display: block;
+}
+
+.canuserPhone {
+  font-size: 28rpx;
+  display: block;
+}
+
+.textinfo_container {
+  padding: 30rpx 30rpx 30rpx 30rpx;
+}
+
+.bottomcontainer {
+  background-color: #46b5fc;
+  border-radius: 50rpx;
+  display: flex;
+  flex-direction: row;
+  width: 400rpx;
+  padding: 20rpx;
+  align-self: center;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  bottom: 28rpx;
+}
+
+.downthemepackage {
+  font-size: 28rpx;
+  color: #fff;
+}
+
+.downwallper {
+  font-size: 28rpx;
+  color: #fff;
+}
+
+.themedescripttitle {
+  font-size: 28rpx;
+}
+
+.themedescript {
+  font-size: 25rpx;
+  color: #666;
+  display: block;
+}

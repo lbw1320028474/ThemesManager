@@ -1,7 +1,7 @@
 //logs.js
 // const util = require('../../utils/util.js')
 Page({
-  onLoad: function () {
+  onLoad: function() {
     setTimeout(() => {
       console.log("1.5秒启动首页");
       wx.switchTab({

@@ -42,27 +42,6 @@
   justify-content: center;
 }
 
-.viewpage_page11 {
-  background-color: #f00;
-  width: 750rpx;
-  height: 300rpx;
-  border-radius: 10rpx;
-}
-
-.viewpage_page22 {
-  height: 300rpx;
-  background-color: #0f0;
-  width: 750rpx;
-  border-radius: 10rpx;
-}
-
-.viewpage_page33 {
-  height: 300rpx;
-  background-color: #00f;
-  width: 750rpx;
-  border-radius: 10rpx;
-}
-
 .viewpage_image {
   width: 690rpx;
   height: 270rpx;

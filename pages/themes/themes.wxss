@@ -3,6 +3,10 @@
   flex-direction: column;
 }
 
+.titlebar {
+
+}
+
 .headView1 {
   width: 100rpx;
   height: 100rpx;
@@ -31,6 +35,7 @@
 .scrollview_x {
   white-space: nowrap;
   height: 350rpx;
+  margin-top: 120rpx;
 }
 
 .scrollvie_y {

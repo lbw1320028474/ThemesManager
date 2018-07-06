@@ -86,5 +86,10 @@ Page({
   },
   getUserInfo: function(e) {
 
+  },
+  wallpaperclick: function(e) {
+    wx.navigateTo({
+      url: "../wallpaperinfo/wallpaperinfo",
+    })
   }
 })

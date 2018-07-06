@@ -101,10 +101,12 @@ Page({
 
   },
   getUserInfo: function(e) {
-
+    
   },
 
   themeItemTouch: function(e) {
-    console.log("点击了");
+    wx.navigateTo({
+      url: "../themeInfo/themeInfo",
+    })
   }
 })

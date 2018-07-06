@@ -1,0 +1,50 @@
+page {
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.scrollview_x {
+  width: 750rpx;
+  height: 100%;
+  align-self: center;
+  box-shadow: 10rpx 10rpx 10rpx 10rpx #66666630;
+}
+
+.viewpage_image {
+  width: 200%;
+  height: 100%;
+}
+
+.viewpage_mask {
+  width: 400rpx;
+  height: 750rpx;
+}
+
+.bottomcontainer {
+  background-color: #46b5fc;
+  border-radius: 50rpx;
+  display: flex;
+  flex-direction: row;
+  width: 200rpx;
+  padding: 20rpx;
+  align-self: center;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  bottom: 28rpx;
+}
+
+.downthemepackage {
+  font-size: 25rpx;
+  color: #fff;
+}
+
+.downwallper {
+  font-size: 28rpx;
+  color: #fff;
+}

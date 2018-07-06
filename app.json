@@ -1,8 +1,10 @@
 {
   "pages": [
-    "pages/wallpaper/wallpaper",
     "pages/themes/themes",
+    "pages/wallpaperinfo/wallpaperinfo",
     "pages/splash/splash",
+    "pages/themeInfo/themeInfo",
+    "pages/wallpaper/wallpaper",
     "pages/mydownload/mydownload",
     "pages/index/index"
   ],
@@ -10,7 +12,8 @@
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "主题",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
   },
   "tabBar": {
     "selectedColor": "#00b7ee",

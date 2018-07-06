@@ -1,13 +1,10 @@
 <view class='container'>
+
   <scroll-view scroll-x='true' class='scrollview_x'>
     <image wx:for="{{bannerDatas}}" class='viewpage_image' src='{{item.bannerImg}}'></image>
   </scroll-view>
   <view scroll-y='true' class='scrollvie_y'>
     <view wx:for="{{themesData}}" bindtap="themeItemTouch" class='themeitem'>
-      <!-- 
-      <view  class='itemcontainer'>
-       
-      </view> -->
       <view class='name' style='borde:1px red solid'>
         <image class='item_cover' src="{{item.cover}}"></image>
         <text class='name'>作者：{{item.author}}</text>
@@ -15,8 +12,8 @@
         <text wx:else class='title'>免费</text>
       </view>
     </view>
-    <view class='themeitem'>
-    </view>
-
+  </view>
+  <view class='titlebar' style="display: flex; align-items: flex-end; position: fixed; width: 100%; background-color: #fff;height:120rpx;">
+    <label class='titlebartitle' style="font-size:32rpx;margin-left:30rpx;margin-bottom:20rpx">主题</label>
   </view>
 </view>

@@ -4,7 +4,7 @@
     <view class='wallpapertype'>静态</view>
   </view>
   <view scroll-y='true' class='scrollvie_y'>
-    <view wx:for="{{themesData}}" class='themeitem'>
+    <view wx:for="{{themesData}}" bindtap='wallpaperclick' class='themeitem'>
       <view class='name' style='borde:1px red solid'>
         <image class='item_cover' src="{{item.cover}}"></image>
         <text class='name'>名称：{{item.author}}</text>

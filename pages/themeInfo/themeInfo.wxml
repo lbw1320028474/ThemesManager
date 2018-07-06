@@ -1,0 +1,20 @@
+<view class='container'>
+  <scroll-view scroll-x='true' class='scrollview_x'>
+    <image wx:for="{{themeInfoData.previews}}" class='viewpage_image' src='{{item}}'></image>
+  </scroll-view>
+  <view class='textinfo_container'>
+    <label class='themename'>名称：{{themeInfoData.name}}</label>
+    <label class='themeauthor'>名称：{{themeInfoData.author}}</label>
+    <label class='canuserPhone'>适用机型：{{themeInfoData.canUserPhone}}</label>
+  </view>
+  <view class='textinfo_container'>
+    <label class='themedescripttitle'>主题描述</label>
+    <label class='themedescript'>城市那么空，你和谁相拥？ 茫茫人海中，我与谁相逢？ 只为遇见你。 放心购买，主题永久更新。并已适配flyme6，升级flyme6系统后无需重新购买，免费使用。设计师日日夜夜的坚持，只为给每一个用户更好的体验。 专业主题设计团队，值得信赖。专注于主题制作，更专注于魅族。 精品主题推荐，我们坚持只做精品，始终如一。 关注更多优质主题，请在个性化端搜索“Dr.W ”或滑至相关页面查看。 添加适配下拉通知、顶栏美化以及悬浮球。
+
+    </label>
+  </view>
+  <view class='bottomcontainer'>
+    <view class='downthemepackage'>下载(¥ {{themeInfoData.charge}})</view>
+    <view class='downwallper'>下载壁纸</view>
+  </view>
+</view>
